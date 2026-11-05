@@ -14,7 +14,7 @@
 | 004 | 2026-11-05 | Causal · Roadmap（产品路线图） | Causal 全站拆解 · causal.so/roadmap | 用户喜欢：三列长条形状态头（Considering / Planned / Building）的形状，以及对应的淡紫、淡蓝、琥珀黄 | 看板列头用 soft + pill 语义色，不是强饱和；卡片仍落在灰阶系统里 | images/2026-11-05_causal-roadmap.jpg |
 | 005 | 2026-11-05 | Causal · About 漂浮素材段 | Causal 首页往下第4段 · causal.so | 用户喜欢：纯白底上，各种形状（倾斜图片卡、PDF条、待办卡、Mood board）散落铺开的拼贴效果 | 大留白白底 + 多形状素材轻微旋转/投影叠放；彩色只来自素材内容本身 | images/2026-11-05_causal-about-scatter.jpg |
 
-## 用户喜欢的点（持续沉淀）
+## 心动设计（持续沉淀）
 
 每次存图时说的具体喜好，记在这里，方便以后配色 / 选型时马上能对照。
 
