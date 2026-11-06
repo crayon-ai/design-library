@@ -31,7 +31,7 @@
 | Roadmap 蓝长条 | soft `#f1f7fb` · pill `#ddecf7` | Planned | 同上 |
 | Roadmap 琥珀黄长条 | soft `#fcf7ee` · pill `#f8e8cd` | Building | 同上 |
 | Fibery 浅桃米色底色 | `#faebd6`（截图取样近似色） | Fibery 官网 · 今日第二批 #19 | 「19 的背景色我喜欢」 |
-| Presensio 奶油纸感底色 | `#f8f5f2`（截图外层无字区多点取样） | Presensio 官网 · 今日第四批 #45 | 「喜欢外层奶油纸感背景，不是粉橙内部渐变」 |
+| Presensio 奶油纸感底色 | `#f9f5f2`（真实最外层截图取样） | Presensio 官网 · 今日第四批 #45 | 「喜欢外层奶油纸感背景，不是粉橙内部渐变」 |
 
 ### 形状 / 组件
 | 点 | 从哪来 | 用户怎么说 |
