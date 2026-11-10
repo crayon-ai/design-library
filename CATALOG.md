@@ -8,6 +8,7 @@
 
 | # | 日期 | 名称 | 来源 | 为什么好看 | 可借鉴 | 图 |
 |---|------|------|------|-----------|--------|----|
+| 014 | 2026-11-10 | Allagi | https://allagi.music/（发现于 minimal.gallery） | 大片纯白留白，只放一张唱片封面作唯一视觉焦点，封面右侧露出半张 CD；手写蓝色字标；上下是 Open in Spotify 小胶囊和播放控制胶囊。 | 底部缩略图时间轨道切换作品，一屏只讲一件作品，适合作品墙/号刊浏览。 | images/2026-11-10_allagi.jpg |
 | 013 | 2026-11-08 | TURMERIC Magazine | https://www.turmericmag.com/ | 奶油点阵纸感底；居中粗蓝无衬线标题；中间横滑号刊内页预览；页缝夹黑白手绘小物件；底栏黄/蓝胶囊 Play、Order、Subscribe。 | 把「新一期内容」做成可横滑的实体感预览，订阅/购买嵌进杂志封面感底栏，而不是传统列表+表单。 | images/2026-11-08_turmeric.jpg |
 | 012 | 2026-11-08 | Maggie Appleton · The Garden | https://maggieappleton.com/garden | 暖纸白底、衬线大标题，三列错落混排，不是等高的同质卡片。 | 主题胶囊 × 成长阶段下拉 × 内容类型下拉，三维筛选；混合内容按类型给不同卡面。 | images/2026-11-08_maggie-garden.jpg |
 | 011 | 2026-11-07 | Neumorphism.io | 今日审美推送 #09 · neumorphism.io | 浅灰同色底与控件；挤出双阴影圆角预览；右侧 Soft 控制面板与阴影 token 可调 | Soft UI 双阴影与同色挤出控件 | images/2026-11-07_neumorphism.jpg |
