@@ -32,6 +32,11 @@ figcaption{padding:20px 22px 22px}.meta{display:flex;gap:10px;color:var(--mute);
 .from{font-size:12px;color:var(--mute);margin-top:4px}
 blockquote{margin-top:12px;padding:10px 12px;border-radius:12px;background:#f3eee6;color:#4a4540;font-size:13px}
 .dir ul{padding-left:18px;color:#4a4540}.dir li{margin:8px 0}
+.bcard{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:0 1px 2px rgba(60,40,20,.04),0 18px 40px -24px rgba(60,40,20,.25);text-decoration:none;color:inherit;transition:transform .25s,box-shadow .25s}
+.bcard:hover{transform:translateY(-3px);box-shadow:0 1px 2px rgba(60,40,20,.04),0 28px 50px -24px rgba(60,40,20,.32)}
+.bcard img{width:100%;height:auto;display:block;background:#eee6dc}
+.bcap{padding:12px 16px 14px}
+.btitle{font:400 13px/1.45 "Songti SC","Noto Serif SC",Georgia,serif;color:#4a4540}
 #lb{position:fixed;inset:0;background:rgba(30,26,22,.86);display:none;align-items:center;justify-content:center;padding:4vw;cursor:zoom-out;z-index:9}
 #lb img{max-width:100%;max-height:100%;border-radius:12px}
 </style></head><body>
@@ -41,6 +46,7 @@ blockquote{margin-top:12px;padding:10px 12px;border-radius:12px;background:#f3ee
   <div class="tabs" role="tablist">
     <button class="tab" role="tab" id="tab-collect" aria-selected="true" aria-controls="panel-collect" onclick="go('collect')">收藏<span class="count">14</span></button>
     <button class="tab" role="tab" id="tab-heart" aria-selected="false" aria-controls="panel-heart" onclick="go('heart')">心动设计<span class="count">13</span></button>
+    <button class="tab" role="tab" id="tab-behance" aria-selected="false" aria-controls="panel-behance" onclick="go('behance')">Behance 收藏<span class="count" id="behance-count"></span></button>
   </div>
 </header>
 <section class="panel active" id="panel-collect" role="tabpanel"><div class="grid"><figure class="card" onclick="z(this)"><div class="ph"><img src="images/2026-11-10_allagi.jpg" alt="Allagi" loading="lazy"></div>
@@ -126,9 +132,14 @@ blockquote{margin-top:12px;padding:10px 12px;border-radius:12px;background:#f3ee
   <div class="section"><h2>字体 / 手法</h2><p class="hint">设计手法带当时戳中你的原图缩略。</p><div class="like-grid"><article class="like-card shape-card"><div class="thumb" onclick="z(this)"><img src="images/2026-11-05_cover-title-cream-brush.jpg" alt="奶油手写粗笔标题字（浅黄字 + 深色阴影描边，压实拍也能站）" loading="lazy"></div><div class="body"><h3>奶油手写粗笔标题字（浅黄字 + 深色阴影描边，压实拍也能站）</h3><p class="from">来自 小红书封面 c008「创作风格？」</p><blockquote>喜欢主标题「创作风格？」——浅黄/奶油色、手写粗笔质感、带深色阴影描边，字在人物实拍背景上也站得住</blockquote></div></article></div></div>
   <div class="section dir"><h2>整体方向</h2><ul><li>Soft UI：奶油 / 雾感 / 薰衣草浅底，叠放软阴影卡片</li><li>不要人像；不要深色照片堆砌；不要文字图片塞满的杂乱落地页</li></ul></div>
 </section>
+<section class="panel" id="panel-behance" role="tabpanel"><div class="grid" id="behance-grid"></div></section>
 <div id="lb" onclick="this.style.display='none'"><img alt=""></div>
 <script>
 function go(id){document.querySelectorAll('.panel').forEach(p=>p.classList.remove('active'));document.querySelectorAll('.tab').forEach(t=>t.setAttribute('aria-selected','false'));document.getElementById('panel-'+id).classList.add('active');document.getElementById('tab-'+id).setAttribute('aria-selected','true');history.replaceState(null,'','#'+id)}
 function z(el){var img=el.querySelector('img')||el;var l=document.getElementById('lb');l.querySelector('img').src=img.src;l.style.display='flex'}
+function esc(s){return String(s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})}
+function renderBehance(items){var grid=document.getElementById('behance-grid');var count=document.getElementById('behance-count');if(!Array.isArray(items)||!grid)return;if(count)count.textContent=items.length;grid.innerHTML=items.map(function(item){var title=esc(item.title||'');var url=esc(item.url||'#');var cover=esc(item.cover||'');return '<a class="bcard" href="'+url+'" target="_blank" rel="noopener noreferrer"><img src="'+cover+'" alt="'+title+'" loading="lazy"><span class="bcap"><span class="btitle">'+title+'</span></span></a>'}).join('')}
+fetch('behance.json').then(function(r){if(!r.ok)throw new Error(String(r.status));return r.json()}).then(renderBehance).catch(function(){});
 if(location.hash==='#heart'||location.hash==='#likes') go('heart');
+else if(location.hash==='#behance') go('behance');
 </script></body></html>
