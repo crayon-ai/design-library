@@ -8,6 +8,13 @@
 
 | # | 日期 | 名称 | 来源 | 为什么好看 | 可借鉴 | 图 |
 |---|------|------|------|-----------|--------|----|
+| 021 | 2026-11-14 | Axis Group | 每日审美推送 11-14 #09 · Lapa Ninja · https://axisgroup.xyz/ | 白底衬线大标题，「Trust」用蓝色斜体；底部一排灰色等距方块从实心渐变成线框 | 用「实→虚」渐变图形讲故事 | images/2026-11-14_axis-group.jpg |
+| 020 | 2026-11-14 | Lasso | 每日审美推送 11-14 #03 · Lapa Ninja · https://lassocommerce.com/ | 白底居中衬线标题；四角飘着商品小卡，用细线连成流程 | 散落卡片 + 细连线讲产品流程 | images/2026-11-14_lasso.jpg |
+| 019 | 2026-11-13 | Cloudstudio | 每日审美推送 11-13 #10 · Best Designs on X · https://cloudstudio.es/ | 整屏奶黄配黑色粗体字；中间一个会眨眼的点阵小生物；底部胶囊切换条 | 可爱角色 + 控件条的玩法（可参考做小棕猫） | images/2026-11-13_cloudstudio.jpg |
+| 018 | 2026-11-13 | Luma | 每日审美推送 11-13 #05 · Best Designs on X · https://luma.com/ | 白底标题居中，四周散落轻倾斜、带软阴影的活动海报卡 | 散落拼贴构图 | images/2026-11-13_luma.jpg |
+| 017 | 2026-11-13 | Beside | 每日审美推送 11-13 #02 · Best Designs on X · https://www.beside.com/ | 纯白底，极细刻度弧线环绕标题；底部浮出带对话气泡的手机 | 用极细线条几何做表盘感 | images/2026-11-13_beside.jpg |
+| 016 | 2026-11-11 | Portal | 每日审美推送 11-11 #05 · Lapa Ninja · https://useportal.net/ | 薰衣草紫渐变暮色天空；居中衬线标题；底部白色圆角产品窗 | 紫雾背景托白卡的柔和层次 | images/2026-11-11_portal.jpg |
+| 015 | 2026-11-11 | Genie | 每日审美推送 11-11 #03 · Lapa Ninja · https://geniestudio.app/ | 极浅蓝白底上散落漂浮云朵和小图标；标题里嵌小贴纸 | 散落小元素 + 可爱吉祥物点缀（适合放小棕猫） | images/2026-11-11_genie.jpg |
 | 014 | 2026-11-10 | Allagi | https://allagi.music/（发现于 minimal.gallery） | 大片纯白留白，只放一张唱片封面作唯一视觉焦点，封面右侧露出半张 CD；手写蓝色字标；上下是 Open in Spotify 小胶囊和播放控制胶囊。 | 底部缩略图时间轨道切换作品，一屏只讲一件作品，适合作品墙/号刊浏览。 | images/2026-11-10_allagi.jpg |
 | 013 | 2026-11-08 | TURMERIC Magazine | https://www.turmericmag.com/ | 奶油点阵纸感底；居中粗蓝无衬线标题；中间横滑号刊内页预览；页缝夹黑白手绘小物件；底栏黄/蓝胶囊 Play、Order、Subscribe。 | 把「新一期内容」做成可横滑的实体感预览，订阅/购买嵌进杂志封面感底栏，而不是传统列表+表单。 | images/2026-11-08_turmeric.jpg |
 | 012 | 2026-11-08 | Maggie Appleton · The Garden | https://maggieappleton.com/garden | 暖纸白底、衬线大标题，三列错落混排，不是等高的同质卡片。 | 主题胶囊 × 成长阶段下拉 × 内容类型下拉，三维筛选；混合内容按类型给不同卡面。 | images/2026-11-08_maggie-garden.jpg |
